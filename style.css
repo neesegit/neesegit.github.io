@@ -8,19 +8,19 @@ body{
 header{
     padding: 15px;
 }
-footer > p{
-    text-align: center;
-    padding: 15px;
-}
 
 parent-main{
     display:flex;
+    
 }
+
 
 /*nav bar*/
 nav{
-    font-size: 150%;
+    font-size: 1.5vw;
     background-color: #23272a;
+    width: 10vw;
+    padding-right: 1vw;
 }
 nav > ul{
     list-style-type: none;
@@ -39,19 +39,59 @@ a:visited { text-decoration: none; }
 a:hover { 
     text-decoration: none;
     color: #7289da;
-    font-size: 107%;
+    /*font-size: 107%;*/
+    transform: translate(20px);
 }
 a:active { text-decoration: none; }
 
 /*Index*/
 #pageAccueil{
-    background-color: black;
+    /*background-color: black;*/
+    background-color: #2c2f33;
     margin-top: 20px;
     margin-left: 25%;
     margin-right: 25%;
-    height: 175px;
+    height: max-content;
 }
 #pageAccueil p{
     text-align: justify;
     margin: 15px;
+    
+}
+
+/*Compétence*/
+.block {
+    width: 32vw;
+    height: max-content;
+    margin: 10px;
+    background-color: #2c2f33;
+    word-wrap: break-word;
+}
+.block>p:last-child{
+    margin-bottom: 50px;
+}
+
+#pageCompetence{
+    /*background-color: black;*/
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 175px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#pageCompetence p{
+    text-align: justify;
+    margin: 15px;
+}
+
+/*CV*/
+#pageCV{
+    /*background-color: black;*/
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 175px;
+    display: flex;
+    flex-wrap: wrap;
 }
