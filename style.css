@@ -19,7 +19,7 @@ parent-main{
 nav{
     font-size: 1.5vw;
     background-color: #23272a;
-    width: 10vw;
+    width: 8vw;
     padding-right: 1vw;
 }
 nav > ul{
@@ -40,7 +40,6 @@ a:hover {
     text-decoration: none;
     color: #7289da;
     /*font-size: 107%;*/
-    transform: translate(20px);
 }
 a:active { text-decoration: none; }
 
@@ -90,8 +89,24 @@ a:active { text-decoration: none; }
     /*background-color: black;*/
     margin-top: 20px;
     margin-left: 25%;
-    margin-right: 25%;
+    margin-right: 0%;
     height: 175px;
     display: flex;
     flex-wrap: wrap;
+}
+#cv{
+    height: 70vw;
+    width: 50vw;
+}
+#benevola-list{
+    text-align: left;
+}
+
+/*ambition*/
+body #ambition-image{
+    margin-left: -15%;
+}
+#ambition-image{
+    height: 20vw;
+    width: 50vw;
 }
